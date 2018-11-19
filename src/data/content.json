@@ -1,4 +1,7 @@
 {
+  "header": {
+    "title": "What is Lorem Ipsum?"
+  },
   "users": [
     {
       "id": "user1",
