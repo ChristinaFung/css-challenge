@@ -8,7 +8,7 @@
       <div class="icons-bar">
         <ul class="icons-list">
           <li v-for="(user, index) of users" :key="index">
-            <div class="user-icon"></div>
+            <div class="user-icon" :class="activeUser === user.id ? 'active' : ''" @click="$emit('set-user', user.id)"></div>
             <p class="cmd-label"><span class="cmd-symbol">⌘</span> {{ index+1 }}</p>
           </li>
         </ul>
@@ -19,7 +19,7 @@
 <script>
 export default {
   name: "Sidebar",
-  props: ["users"]
+  props: ["users", "activeUser"]
 }
 </script>
 

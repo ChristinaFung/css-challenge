@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <!-- Sidebar component -->
-    <Sidebar :users="content.users"/>
+    <Sidebar :users="content.users" :activeUser="state.activeUser" @set-user="setUser"/>
 
     <div class="content-container">
     <!-- Header component -->
@@ -14,6 +14,7 @@
 </template>
 
 <script>
+import { store } from '@/store.js'
 import Sidebar from '@/components/Sidebar.vue'
 import content from '@/data/content.json'
 
@@ -24,11 +25,14 @@ export default {
   },
   data: function() {
     return {
-      content: content
+      content: content,
+      state: store.state
     }
   },
-  mounted() {
-    console.log("content: ",content)
+  methods: {
+    setUser: function(userId) {
+      this.state.activeUser = userId;
+    }
   }
 }
 </script>
