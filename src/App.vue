@@ -1,13 +1,35 @@
 <template>
   <div id="app">
-    <h1>hi</h1>
+    <!-- Sidebar component -->
+    <Sidebar :users="content.users"/>
+
+    <div class="content-container">
+    <!-- Header component -->
+    <!-- MessagePreview component -->
+    <!-- MessageWindow component -->
+    <!-- HamburgerMenu component? -->
+    </div>
+
   </div>
 </template>
 
 <script>
+import Sidebar from '@/components/Sidebar.vue'
+import content from '@/data/content.json'
 
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    Sidebar
+  },
+  data: function() {
+    return {
+      content: content
+    }
+  },
+  mounted() {
+    console.log("content: ",content)
+  }
 }
 </script>
 
@@ -15,11 +37,23 @@ export default {
 @import "@/styles/setup.scss";
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  min-width: 1024px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  overflow: auto;
+  height: 100vh;
 }
 </style>
