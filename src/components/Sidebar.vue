@@ -74,19 +74,19 @@ export default {
     position: relative;
 
     &.active:before {
-        position: absolute;
-        content: '';
-        background: $pink;
-        height: 3px;
-        width: 3px;
-        top: 50%;
-        transform: translateY(-50%);
-        left: -1.2rem;
-        border-radius: 50%;
-        -webkit-box-shadow: 0px 0px 7px 3px rgba(219,10,91,1);
-        -moz-box-shadow: 0px 0px 7px 3px rgba(219,10,91,1);
-        box-shadow: 0px 0px 7px 3px rgba(219,10,91,1);
-      }
+      position: absolute;
+      content: '';
+      background: $pink;
+      height: 3px;
+      width: 3px;
+      top: 50%;
+      transform: translateY(-50%);
+      left: -1.2rem;
+      border-radius: 50%;
+      -webkit-box-shadow: 0px 0px 7px 3px rgba(219,10,91,1);
+      -moz-box-shadow: 0px 0px 7px 3px rgba(219,10,91,1);
+      box-shadow: 0px 0px 7px 3px rgba(219,10,91,1);
+    }
   }
 
   .cmd-symbol {

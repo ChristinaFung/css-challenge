@@ -4,6 +4,7 @@
     <Sidebar :users="content.users" :activeUser="state.activeUser" @set-user="setUser"/>
 
     <div class="content-container">
+      <!-- Header component -->
       <div class="content-header">
         <h1 class="content-title">{{ content.header.title }}</h1>
         <div class="hamburger-container">
@@ -13,8 +14,15 @@
           </div>
         </div>
       </div>
-    <!-- Header component -->
-    <!-- MessagePreview component -->
+      <div class="previews-container" v-for="(user, index) of content.users" :key="index" v-if="state.activeUser === user.id">
+        <!-- MessagePreview component -->
+        <div class="msg-preview" v-for="(preview, index) of user.messages.previews" :key="index">
+          <h5 class="preview-title">{{ preview.title}}</h5>
+          <p class="preview-blurb">{{ preview.blurb }}</p>
+        </div>
+      </div>
+    
+    
     <!-- MessageWindow component -->
     <!-- HamburgerMenu component? -->
     </div>
@@ -74,7 +82,7 @@ body {
 }
 
 .content-container {
-  width: calc(100% - 6rem)
+  width: calc(100% - 6rem);
 }
 
 .content-header {
@@ -86,11 +94,47 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  // -webkit-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.4);
+  // -moz-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.4);
+  // box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.4);
 
   .content-title {
     margin: 0;
     font-weight: 300;
     font-size: 2.4rem;
+  }
+}
+
+.previews-container {
+  width: 33%;
+  background: $grey-light;
+  border-right: 1px solid $grey-border;
+  height: calc(100% - 6rem);
+
+  .msg-preview {
+    border-bottom: 1px solid $grey-border;
+    padding: 1rem;
+          // height: 9rem;
+
+    .preview-title {
+      margin-bottom: 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    .preview-blurb {
+      // thanks https://www.consolelog.io/multiple-line-ellipsis-css-effect/ :)
+      display: block;
+      display: -webkit-box;
+      max-width: 100%;
+      height: 56px;
+      margin: 0 auto;
+      font-size: 1.2rem;
+      line-height: 1.2;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
   }
 }
 </style>
