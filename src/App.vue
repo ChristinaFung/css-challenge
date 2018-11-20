@@ -69,6 +69,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   min-width: 1024px;
   min-height: 768px;
+  height: 100%;
   display: flex;
 }
 
@@ -109,6 +110,7 @@ body {
   .message {
     .msg-header {
       padding-bottom: 1.5rem;
+      margin-bottom: 1.5rem;
       position: relative;
 
       &:after {
