@@ -68,8 +68,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-width: 1024px;
-  min-height: 768px;
-  height: 100%;
+  min-height: 100vh;
   display: flex;
 }
 
