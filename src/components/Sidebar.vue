@@ -1,9 +1,7 @@
 <template>
   <div class="sidebar">
       <div class="logo-container">
-        <div class="logo">
-          <img src="@/assets/logo.png" alt="">
-        </div>
+        <img class="logo" src="@/assets/logo.png" alt="">
       </div>
       <div class="icons-bar">
         <ul class="icons-list">
@@ -28,6 +26,8 @@ export default {
 
 .sidebar {
   max-width: 6rem;
+  position: relative;
+  z-index: 2;
 
   .logo-container {
     background: $pink;
@@ -72,6 +72,9 @@ export default {
     background: $grey-light;
     border-radius: 0.5rem;
     position: relative;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
 
     &.active:before {
       position: absolute;

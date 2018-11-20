@@ -5,142 +5,127 @@
   "users": [
     {
       "id": "user1",
-      "messages": {
-        "previews": [
-          {
-            "title": "Lorem Ipsum",
-            "blurb": "Angel investor backing conversion innovator stock. Agile development user experience customer virality. Conversion non-disclosure agreement responsive web design entrepreneur backing metrics business model canvas vesting period ownership alpha beta buzz. Termsheet hackathon research & development innovator."
-          },
-          {
-            "title": "Lorem Ipsum",
-            "blurb": "Churn rate virality alpha iteration focus accelerator ecosystem buyer. Incubator crowdsource return on investment buzz technology. Gamification early adopters strategy social proof equity user experience termsheet non-disclosure agreement business-to-business analytics twitter. Success sales marketing agile development conversion partner network business model canvas startup launch party prototype assets incubator holy grail."
-          },
-          {
-            "title": "Lorem Ipsum",
-            "blurb": "Equity pitch advisor rockstar A/B testing leverage partner network beta niche market research & development validation branding user experience direct mailing. Facebook direct mailing bandwidth conversion buyer alpha product management incubator disruptive churn rate. Stealth bandwidth technology. Paradigm shift pivot metrics niche market non-disclosure agreement technology A/B testing iPad creative business model canvas investor seed money."
-          },
-          {
-            "title": "Lorem Ipsum",
-            "blurb": "Leverage termsheet user experience alpha market social proof monetization interaction design return on investment stealth mass market business model canvas channels. Equity twitter A/B testing android leverage early adopters virality. "
-          },
-          {
-            "title": "Lorem Ipsum",
-            "blurb": "Angel investor backing conversion innovator stock. Agile development user experience customer virality. Conversion non-disclosure agreement responsive web design entrepreneur backing metrics business model canvas vesting period ownership alpha beta buzz. Termsheet hackathon research & development innovator."
-          },
-          {
-            "title": "Lorem Ipsum",
-            "blurb": "Churn rate virality alpha iteration focus accelerator ecosystem buyer. Incubator crowdsource return on investment buzz technology. Gamification early adopters strategy social proof equity user experience termsheet non-disclosure agreement business-to-business analytics twitter. Success sales marketing agile development conversion partner network business model canvas startup launch party prototype assets incubator holy grail."
-          },
-          {
-            "title": "Lorem Ipsum",
-            "blurb": "Equity pitch advisor rockstar A/B testing leverage partner network beta niche market research & development validation branding user experience direct mailing. Facebook direct mailing bandwidth conversion buyer alpha product management incubator disruptive churn rate. Stealth bandwidth technology. Paradigm shift pivot metrics niche market non-disclosure agreement technology A/B testing iPad creative business model canvas investor seed money."
-          },
-          {
-            "title": "Lorem Ipsum",
-            "blurb": "Leverage termsheet user experience alpha market social proof monetization interaction design return on investment stealth mass market business model canvas channels. Equity twitter A/B testing android leverage early adopters virality. "
-          },
-          {
-            "title": "Lorem Ipsum",
-            "blurb": "Holy grail gamification graphical user interface buzz social media startup technology leverage hackathon venture virality advisor. Churn rate partnership business-to-consumer. Leverage creative buyer channels traction success churn rate bootstrapping investor MVP. Direct mailing seed round assets startup business-to-consumer advisor early adopters disruptive."
-          }
-        ],
-        "windows": [
-          {
-            "title": "Lorem Ipsum",
-            "subtitle": "Deployment success startup traction niche market user experience non-disclosure agreement burn rate."
-          }
-        ]
+      "previews": [
+        {
+          "title": "Lorem Ipsum",
+          "blurb": "Angel investor backing conversion innovator stock. Agile development user experience customer virality. Conversion non-disclosure agreement responsive web design entrepreneur backing metrics business model canvas vesting period ownership alpha beta buzz. Termsheet hackathon research & development innovator."
+        },
+        {
+          "title": "Lorem Ipsum",
+          "blurb": "Churn rate virality alpha iteration focus accelerator ecosystem buyer. Incubator crowdsource return on investment buzz technology. Gamification early adopters strategy social proof equity user experience termsheet non-disclosure agreement business-to-business analytics twitter. Success sales marketing agile development conversion partner network business model canvas startup launch party prototype assets incubator holy grail."
+        },
+        {
+          "title": "Lorem Ipsum",
+          "blurb": "Equity pitch advisor rockstar A/B testing leverage partner network beta niche market research & development validation branding user experience direct mailing. Facebook direct mailing bandwidth conversion buyer alpha product management incubator disruptive churn rate. Stealth bandwidth technology. Paradigm shift pivot metrics niche market non-disclosure agreement technology A/B testing iPad creative business model canvas investor seed money."
+        },
+        {
+          "title": "Lorem Ipsum",
+          "blurb": "Leverage termsheet user experience alpha market social proof monetization interaction design return on investment stealth mass market business model canvas channels. Equity twitter A/B testing android leverage early adopters virality. "
+        },
+        {
+          "title": "Lorem Ipsum",
+          "blurb": "Angel investor backing conversion innovator stock. Agile development user experience customer virality. Conversion non-disclosure agreement responsive web design entrepreneur backing metrics business model canvas vesting period ownership alpha beta buzz. Termsheet hackathon research & development innovator."
+        },
+        {
+          "title": "Lorem Ipsum",
+          "blurb": "Churn rate virality alpha iteration focus accelerator ecosystem buyer. Incubator crowdsource return on investment buzz technology. Gamification early adopters strategy social proof equity user experience termsheet non-disclosure agreement business-to-business analytics twitter. Success sales marketing agile development conversion partner network business model canvas startup launch party prototype assets incubator holy grail."
+        },
+        {
+          "title": "Lorem Ipsum",
+          "blurb": "Equity pitch advisor rockstar A/B testing leverage partner network beta niche market research & development validation branding user experience direct mailing. Facebook direct mailing bandwidth conversion buyer alpha product management incubator disruptive churn rate. Stealth bandwidth technology. Paradigm shift pivot metrics niche market non-disclosure agreement technology A/B testing iPad creative business model canvas investor seed money."
+        },
+        {
+          "title": "Lorem Ipsum",
+          "blurb": "Leverage termsheet user experience alpha market social proof monetization interaction design return on investment stealth mass market business model canvas channels. Equity twitter A/B testing android leverage early adopters virality. "
+        },
+        {
+          "title": "Lorem Ipsum",
+          "blurb": "Holy grail gamification graphical user interface buzz social media startup technology leverage hackathon venture virality advisor. Churn rate partnership business-to-consumer. Leverage creative buyer channels traction success churn rate bootstrapping investor MVP. Direct mailing seed round assets startup business-to-consumer advisor early adopters disruptive."
+        }
+      ],
+      "message": {
+        "title": "Lorem Ipsum crowdsource freemium ecosystem twitter.",
+        "subtitle": "Deployment success startup traction niche market user",
+        "topParagraph": "Non-disclosure agreement mass market holy grail social media business model canvas. Seed round prototype ecosystem entrepreneur business plan holy grail marketing user experience churn rate disruptive alpha funding supply chain low hanging fruit. Social media social proof infrastructure customer iPhone seed round stealth. Growth hacking product management business-to-consumer holy grail iteration."
       }
     },
     {
       "id": "user2",
-      "messages": {
-        "previews": [
-          {
-            "title": "Lorem Ipsum",
-            "blurb": "Low hanging fruit social media metrics direct mailing buzz customer product management conversion ownership virality. Infographic stealth hackathon buzz. Responsive web design market twitter crowdsource paradigm shift alpha venture startup burn rate metrics business model canvas rockstar ramen virality. Conversion ownership ecosystem leverage founders assets influencer analytics growth hacking burn rate."
-          },
-          {
-            "title": "Lorem Ipsum",
-            "blurb": "Partnership metrics value proposition accelerator business-to-business entrepreneur bandwidth iteration bootstrapping innovator client user experience. Market launch party disruptive prototype gamification freemium growth hacking direct mailing. Technology stock crowdsource validation termsheet monetization. Equity android niche market seed money return on investment."
-          },
-          {
-            "title": "Lorem Ipsum",
-            "blurb": "Partnership buzz graphical user interface virality iPhone. Accelerator niche market startup ownership buyer network effects creative twitter vesting period. Gen-z return on investment handshake founders funding stock iteration. Virality analytics early adopters focus interaction design marketing learning curve."
-          },
-          {
-            "title": "Lorem Ipsum",
-            "blurb": "Innovator accelerator client mass market. Strategy product management paradigm shift. Deployment success iteration ownership return on investment value proposition. IPhone user experience iteration gamification partnership early adopters hypotheses marketing sales crowdfunding."
-          },
-          {
-            "title": "Lorem Ipsum",
-            "blurb": "Funding ramen infographic. Startup influencer growth hacking interaction design alpha burn rate buyer angel investor entrepreneur hypotheses infographic release analytics. Influencer bandwidth research & development lean startup strategy. Business-to-consumer technology android long tail equity success gamification assets social media metrics advisor crowdsource."
-          }
-        ],
-        "windows": [
-          {
-            "title": "Lorem Ipsum",
-            "subtitle": "Deployment success startup traction niche market user experience non-disclosure agreement burn rate."
-          }
-        ]
+      "previews": [
+        {
+          "title": "Lorem Ipsum",
+          "blurb": "Low hanging fruit social media metrics direct mailing buzz customer product management conversion ownership virality. Infographic stealth hackathon buzz. Responsive web design market twitter crowdsource paradigm shift alpha venture startup burn rate metrics business model canvas rockstar ramen virality. Conversion ownership ecosystem leverage founders assets influencer analytics growth hacking burn rate."
+        },
+        {
+          "title": "Lorem Ipsum",
+          "blurb": "Partnership metrics value proposition accelerator business-to-business entrepreneur bandwidth iteration bootstrapping innovator client user experience. Market launch party disruptive prototype gamification freemium growth hacking direct mailing. Technology stock crowdsource validation termsheet monetization. Equity android niche market seed money return on investment."
+        },
+        {
+          "title": "Lorem Ipsum",
+          "blurb": "Partnership buzz graphical user interface virality iPhone. Accelerator niche market startup ownership buyer network effects creative twitter vesting period. Gen-z return on investment handshake founders funding stock iteration. Virality analytics early adopters focus interaction design marketing learning curve."
+        },
+        {
+          "title": "Lorem Ipsum",
+          "blurb": "Innovator accelerator client mass market. Strategy product management paradigm shift. Deployment success iteration ownership return on investment value proposition. IPhone user experience iteration gamification partnership early adopters hypotheses marketing sales crowdfunding."
+        },
+        {
+          "title": "Lorem Ipsum",
+          "blurb": "Funding ramen infographic. Startup influencer growth hacking interaction design alpha burn rate buyer angel investor entrepreneur hypotheses infographic release analytics. Influencer bandwidth research & development lean startup strategy. Business-to-consumer technology android long tail equity success gamification assets social media metrics advisor crowdsource."
+        }
+      ],
+      "message": {
+        "title": "Lorem Ipsum crowdsource freemium ecosystem twitter incubator",
+        "subtitle": "Deployment success startup traction niche market user experience non-disclosure agreement burn rate."
       }
     },
     {
       "id": "user3",
-      "messages": {
-        "previews": [
-          {
-            "title": "Lorem Ipsum",
-            "blurb": "Angel investor backing conversion innovator stock. Agile development user experience customer virality. Conversion non-disclosure agreement responsive web design entrepreneur backing metrics business model canvas vesting period ownership alpha beta buzz. Termsheet hackathon research & development innovator."
-          },
-          {
-            "title": "Lorem Ipsum",
-            "blurb": "Churn rate virality alpha iteration focus accelerator ecosystem buyer. Incubator crowdsource return on investment buzz technology. Gamification early adopters strategy social proof equity user experience termsheet non-disclosure agreement business-to-business analytics twitter. Success sales marketing agile development conversion partner network business model canvas startup launch party prototype assets incubator holy grail."
-          },
-          {
-            "title": "Lorem Ipsum",
-            "blurb": "Equity pitch advisor rockstar A/B testing leverage partner network beta niche market research & development validation branding user experience direct mailing. Facebook direct mailing bandwidth conversion buyer alpha product management incubator disruptive churn rate. Stealth bandwidth technology. Paradigm shift pivot metrics niche market non-disclosure agreement technology A/B testing iPad creative business model canvas investor seed money."
-          },
-          {
-            "title": "Lorem Ipsum",
-            "blurb": "Leverage termsheet user experience alpha market social proof monetization interaction design return on investment stealth mass market business model canvas channels. Equity twitter A/B testing android leverage early adopters virality. "
-          },
-          {
-            "title": "Lorem Ipsum",
-            "blurb": "Holy grail gamification graphical user interface buzz social media startup technology leverage hackathon venture virality advisor. Churn rate partnership business-to-consumer. Leverage creative buyer channels traction success churn rate bootstrapping investor MVP. Direct mailing seed round assets startup business-to-consumer advisor early adopters disruptive."
-          }
-        ],
-        "windows": [
-          {
-            "title": "Lorem Ipsum",
-            "subtitle": "Deployment success startup traction niche market user experience non-disclosure agreement burn rate."
-          }
-        ]
+      "previews": [
+        {
+          "title": "Lorem Ipsum",
+          "blurb": "Angel investor backing conversion innovator stock. Agile development user experience customer virality. Conversion non-disclosure agreement responsive web design entrepreneur backing metrics business model canvas vesting period ownership alpha beta buzz. Termsheet hackathon research & development innovator."
+        },
+        {
+          "title": "Lorem Ipsum",
+          "blurb": "Churn rate virality alpha iteration focus accelerator ecosystem buyer. Incubator crowdsource return on investment buzz technology. Gamification early adopters strategy social proof equity user experience termsheet non-disclosure agreement business-to-business analytics twitter. Success sales marketing agile development conversion partner network business model canvas startup launch party prototype assets incubator holy grail."
+        },
+        {
+          "title": "Lorem Ipsum",
+          "blurb": "Equity pitch advisor rockstar A/B testing leverage partner network beta niche market research & development validation branding user experience direct mailing. Facebook direct mailing bandwidth conversion buyer alpha product management incubator disruptive churn rate. Stealth bandwidth technology. Paradigm shift pivot metrics niche market non-disclosure agreement technology A/B testing iPad creative business model canvas investor seed money."
+        },
+        {
+          "title": "Lorem Ipsum",
+          "blurb": "Leverage termsheet user experience alpha market social proof monetization interaction design return on investment stealth mass market business model canvas channels. Equity twitter A/B testing android leverage early adopters virality. "
+        },
+        {
+          "title": "Lorem Ipsum",
+          "blurb": "Holy grail gamification graphical user interface buzz social media startup technology leverage hackathon venture virality advisor. Churn rate partnership business-to-consumer. Leverage creative buyer channels traction success churn rate bootstrapping investor MVP. Direct mailing seed round assets startup business-to-consumer advisor early adopters disruptive."
+        }
+      ],
+      "message": {
+        "title": "Lorem Ipsum crowdsource freemium ecosystem twitter incubator",
+        "subtitle": "Deployment success startup traction niche market user experience non-disclosure agreement burn rate."
       }
     },
     {
       "id": "user4",
-      "messages": {
-        "previews": [
-          {
-            "title": "Lorem Ipsum",
-            "blurb": "Deployment validation social media niche market social proof investor agile development. Equity user experience non-disclosure agreement early adopters sales. Founders entrepreneur validation holy grail direct mailing. Graphical user interface iteration stock."
-          },
-          {
-            "title": "Lorem Ipsum",
-            "blurb": "Angel investor backing conversion innovator stock. Agile development user experience customer virality. Conversion non-disclosure agreement responsive web design entrepreneur backing metrics business model canvas vesting period ownership alpha beta buzz. Termsheet hackathon research & development innovator."
-          },
-          {
-            "title": "Lorem Ipsum",
-            "blurb": "Equity pitch advisor rockstar A/B testing leverage partner network beta niche market research & development validation branding user experience direct mailing. Facebook direct mailing bandwidth conversion buyer alpha product management incubator disruptive churn rate. Stealth bandwidth technology. Paradigm shift pivot metrics niche market non-disclosure agreement technology A/B testing iPad creative business model canvas investor seed money."
-          }
-        ],
-        "windows": [
-          {
-            "title": "Lorem Ipsum",
-            "subtitle": "Deployment success startup traction niche market user experience non-disclosure agreement burn rate."
-          }
-        ]
+      "previews": [
+        {
+          "title": "Lorem Ipsum",
+          "blurb": "Deployment validation social media niche market social proof investor agile development. Equity user experience non-disclosure agreement early adopters sales. Founders entrepreneur validation holy grail direct mailing. Graphical user interface iteration stock."
+        },
+        {
+          "title": "Lorem Ipsum",
+          "blurb": "Angel investor backing conversion innovator stock. Agile development user experience customer virality. Conversion non-disclosure agreement responsive web design entrepreneur backing metrics business model canvas vesting period ownership alpha beta buzz. Termsheet hackathon research & development innovator."
+        },
+        {
+          "title": "Lorem Ipsum",
+          "blurb": "Equity pitch advisor rockstar A/B testing leverage partner network beta niche market research & development validation branding user experience direct mailing. Facebook direct mailing bandwidth conversion buyer alpha product management incubator disruptive churn rate. Stealth bandwidth technology. Paradigm shift pivot metrics niche market non-disclosure agreement technology A/B testing iPad creative business model canvas investor seed money."
+        }
+      ],
+      "message": {
+        "title": "Lorem Ipsum crowdsource freemium ecosystem twitter incubator",
+        "subtitle": "Deployment success startup traction niche market user experience non-disclosure agreement burn rate."
       }
     }
   ]
