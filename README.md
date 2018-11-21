@@ -1,6 +1,6 @@
 # css-challenge
 
-Made with Vue. :) 
+Made with Vue. Best viewed in Chrome. Interactivity is only on the sidebar icons. 
 
 ## Project setup
 ```
@@ -27,5 +27,3 @@ npm run test
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

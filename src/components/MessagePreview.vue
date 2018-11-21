@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: "MsgPreview",
+  name: "MessagePreview",
   props: ["preview"]
 }
 </script>
