@@ -25,16 +25,16 @@
 </template>
 
 <script>
-import { store } from '@/store.js'
-import Sidebar from '@/components/Sidebar.vue'
-import Header from '@/components/Header.vue'
-import MessagePreview from '@/components/MessagePreview.vue'
-import Message from '@/components/Message.vue'
-import MessageInput from '@/components/MessageInput.vue'
-import content from '@/data/content.json'
+import { store } from "@/store.js"
+import Sidebar from "@/components/Sidebar.vue"
+import Header from "@/components/Header.vue"
+import MessagePreview from "@/components/MessagePreview.vue"
+import Message from "@/components/Message.vue"
+import MessageInput from "@/components/MessageInput.vue"
+import content from "@/data/content.json"
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
     Sidebar,
     Header,

@@ -2,10 +2,7 @@
   <div class="content-header">
     <h1 class="content-title">{{ title }}</h1>
     <div class="hamburger-container">
-      <div class="hamburger-icon">
-        <!-- TODO: Need hamburger icon -->
-        <img src="http://placehold.it/30x30" alt="">
-      </div>
+      <font-awesome-icon icon="bars" class="hamburger"/>
     </div>
   </div>
 </template>
@@ -27,8 +24,8 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  // -webkit-box-shadow: 0px 4px 4px -4px rgba(0,0,0,0.25);
-  // -moz-box-shadow: 0px 4px 4px -4px rgba(0,0,0,0.25);
+  -webkit-box-shadow: 0px -15px 5px 15px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px -15px 5px 15px rgba(0,0,0,0.25);
   box-shadow: 0px -15px 5px 15px rgba(0,0,0,0.25);
   position: relative;
   z-index: 1;
@@ -37,6 +34,11 @@ export default {
     margin: 0;
     font-weight: 300;
     font-size: 2.2rem;
+  }
+
+  .hamburger {
+    font-size: 2.5rem;
+    color: $grey-hamburger;
   }
 }
 </style>

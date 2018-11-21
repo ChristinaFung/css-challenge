@@ -22,8 +22,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// TODO: Add dropshadows on icons
-
 .sidebar {
   max-width: 6rem;
   position: relative;
