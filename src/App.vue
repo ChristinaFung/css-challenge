@@ -14,12 +14,20 @@
         </div>
         <!-- MessageWindow component -->
         <div class="msg-container">
+          <!-- Message component -->
           <div class="message">
             <div class="msg-header">
               <h3 class="msg-title">{{ user.message.title }}</h3>
               <h4 class="msg-subtitle">{{ user.message.subtitle }}</h4>
             </div>
             <p class="top-paragraph">{{ user.message.topParagraph }}</p>
+
+            <div class="msg-img-container">
+              <div class="image-placeholder"></div>
+              <p class="caption">{{ user.message.caption }}</p>
+            </div>
+
+            <p class="bottom-paragraph">{{ user.message.bottomParagraph }}</p>
           </div>
           <div class="input-container">
             <p>thing</p>
@@ -81,7 +89,7 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   overflow: auto;
   height: 100vh;
 }
@@ -134,15 +142,36 @@ body {
       font-size: 1.4rem;
       font-weight: 400;
     }
+
+    .top-paragraph:first-letter {
+      // thanks https://css-tricks.com/snippets/css/drop-caps/
+      float: left;
+      font-size: 40px;
+      line-height: 25px;
+      padding: 5px 5px 0 0;
+    }
+
+    .msg-img-container {
+      text-align: center;
+      margin: 2.5rem 0;
+
+      .image-placeholder {
+        background: $grey-asset;
+        margin: 0 auto;
+        width: 50rem;
+        height: 20rem
+      }
+    }
+
+    .caption {
+      font-size: 1.2rem;
+      font-style: italic;
+      margin-top: 0.5rem;
+      line-height: 1;
+    }
+
   }
   
-  .top-paragraph:first-letter {
-  float: left;
-  font-size: 36px;
-  line-height: 30px;
-  padding-top: 4px;
-  padding-right: 4px;
-  padding-left: 4px;
-}
+
 }
 </style>
