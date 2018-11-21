@@ -30,7 +30,7 @@
             <p class="bottom-paragraph">{{ user.message.bottomParagraph }}</p>
           </div>
           <div class="input-container">
-            <p>thing</p>
+            <div class="msg-input" contenteditable="true">Type a message...</div>
           </div>
         </div>
       </div>
@@ -76,7 +76,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-width: 1024px;
-  min-height: 100vh;
+  height: 800px;
   display: flex;
 }
 
@@ -100,6 +100,8 @@ body {
 
 .previews-container {
   width: 33%;
+  height: 100%;
+  overflow: auto;
   background: $grey-light;
   border-right: 1px solid $grey-border;
 }
@@ -113,6 +115,9 @@ body {
   width: 67%;
   background: $grey-lighter;
   padding: 2.5rem;
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 8rem;
 
   .message {
     .msg-header {
@@ -169,6 +174,26 @@ body {
       margin-top: 0.5rem;
       line-height: 1;
     }
+
+  }
+
+  .input-container {
+    border-top: 2px solid $grey-msg-accent;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 8rem;
+    padding: 1.8rem;
+  }
+
+  .msg-input {
+    border: 2px solid $grey-msg-accent;
+    border-radius: 0.5rem;
+    background: none;
+    color: $grey-asset;
+    padding: 1rem;
+    font-size: 1.8rem;
 
   }
   
